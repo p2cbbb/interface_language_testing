@@ -24,7 +24,7 @@
 
 `git clone https://github.com/p2cbbb/qa_automation_language && cd qa_automation_language`
 
-`python -m pip -r install requirements.txt`
+`python -m pip install -r requirements.txt`
 
-вместо 'en' подставляем нужный нам язык
+вместо 'en' подставляем нужный нам язык  
 `pytest --language=en test_items.py`

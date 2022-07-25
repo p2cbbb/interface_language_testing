@@ -20,3 +20,11 @@
 4. В тесте проверяется наличие кнопки добавления в корзину. Селектор кнопки является уникальным для проверяемой страницы. Есть assert.
 5. Название тестового метода внутри файла test_items.py соответствует задаче. Название test_something не удовлетворяет требованиям.
 
+#### Команды для запуска автотестов
+
+`git clone https://github.com/p2cbbb/qa_automation_language && cd qa_automation_language`
+
+`python -m pip -r install requirements.txt`
+
+вместо 'en' подставляем нужный нам язык
+`pytest --language=en test_items.py`
